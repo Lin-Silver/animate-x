@@ -160,8 +160,8 @@ def load_video_frames(ref_image_path, pose_file_path, original_driven_video_path
                 print('_total_frame_num is smaller than cover_frame_num, the sampled frame interval is changed')
                 start_frame = 0   # we set start_frame = 0 because the pose alignment is performed on the first frame
                 end_frame = _total_frame_num
-                stride = max((_total_frame_num-1//(max_frames-1)),1)
-                end_frame = stride*max_frames
+                stride = max(((_total_frame_num - 1) // (max_frames - 1)), 1)  # 正确写法
+                end_frame = min(end_frame, _total_frame_num)
             else:
                 start_frame = 0  # we set start_frame = 0 because the pose alignment is performed on the first frame
                 end_frame = start_frame + cover_frame_num

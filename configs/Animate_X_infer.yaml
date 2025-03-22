@@ -1,20 +1,13 @@
 
 
 # manual setting
-max_frames: 132  
+max_frames: 320  
 resolution: [512, 768]  
 round: 5
 ddim_timesteps: 30  
 seed: 13
 test_list_path: [
-  [2, "data/images/1.jpg", "data/saved_pose/dance_1","data/saved_frames/dance_1","data/saved_pkl/dance_1.pkl", 14], # seed 14
-  [2, "data/images/4.png", "data/saved_pose/dance_1","data/saved_frames/dance_1","data/saved_pkl/dance_1.pkl", 14], # seed 14
-  [2, "data/images/3.jpeg", "data/saved_pose/dance_2","data/saved_frames/dance_2","data/saved_pkl/dance_2.pkl", 13], # seed 13
-  [2, "data/images/10.jpeg", "data/saved_pose/dance_2","data/saved_frames/dance_2","data/saved_pkl/dance_2.pkl", 14], # 
-  [2, "data/images/zhu.png", "data/saved_pose/dance_3","data/saved_frames/dance_3","data/saved_pkl/dance_3.pkl", 14],
-  [2, "data/images/5.jpeg", "data/saved_pose/dance_3","data/saved_frames/dance_3","data/saved_pkl/dance_3.pkl", 14],
-  [1, "data/images/2.jpeg", "data/saved_pose/dance_3_right","data/saved_frames/dance_3_right","data/saved_pkl/dance_3_right.pkl", 13], # seed 13 
-  [4, "data/images/7.jpeg", "data/saved_pose/ubc","data/saved_frames/ubc","data/saved_pkl/ubc.pkl", 14],
+  [2, "data/images/1.jpg", "data/saved_pose/dance_2","data/saved_frames/dance_2","data/saved_pkl/dance_2.pkl", 14], # seed 14
 ]
 
 
