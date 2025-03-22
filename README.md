@@ -114,11 +114,7 @@ The default inputs are a image (.jpg) and a dance video (.mp4). The default outp
 
 1. pre-process the video.
     ```bash
-    python process_data.py \
-        --source_video_paths data/videos \
-        --saved_pose_dir data/saved_pkl \
-        --saved_pose data/saved_pose \
-        --saved_frame_dir data/saved_frames
+    python process_data.py --source_video_paths data/videos --saved_pose_dir data/saved_pkl  --saved_pose data/saved_pose --saved_frame_dir data/saved_frames
     ```
 2. run Animate-X.
     ```bash
