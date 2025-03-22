@@ -87,6 +87,14 @@ conda env create -f environment.yaml
 conda activate animate-x
 ```
 
+When using Venv:
+
+```sh
+python -m venv venv
+venv\Scripts\Activate
+pip install -r requirements.txt
+
+
 
 ## &#x1F680; Download Checkpoints
 Download Animate-X [checkpoints](https://huggingface.co/Shuaishuai0219/Animate-X) and put all files in `checkpoints` dir, which should be like:
@@ -162,21 +170,3 @@ Our implementation is based on [UniAnimate](https://github.com/ali-vilab/UniAnim
 
 ## &#x2696; License
 This repository is released under the Apache-2.0 license as found in the [LICENSE](LICENSE) file.
-
-## &#x1F4DA; Citation
-If you find this codebase useful for your research, please use the following entry.
-```BibTeX
-@article{AnimateX2025,
-  title={Animate-X: Universal Character Image Animation with Enhanced Motion Representation},
-  author={Tan, Shuai and Gong, Biao and Wang, Xiang and Zhang, Shiwei and Zheng, Dandan and Zheng, Ruobing and Zheng, Kecheng and Chen, Jingdong and Yang, Ming},
-  journal={ICLR 2025},
-  year={2025}
-}
-
-@article{Mimir2025,
-  title={Mimir: Improving Video Diffusion Models for Precise Text Understanding},
-  author={Tan, Shuai and Gong, Biao and Feng, Yutong and Zheng, Kecheng and Zheng, Dandan and Shi, Shuwei and Shen, Yujun and Chen, Jingdong and Yang, Ming},
-  journal={arXiv preprint arXiv:2412.03085},
-  year={2025}
-}
-```
